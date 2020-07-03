@@ -1,0 +1,1 @@
+void creat_key(char* parameterFile, char* publicKeyFile, char* privateKeyFile);
