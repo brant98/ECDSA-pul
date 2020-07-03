@@ -13,12 +13,12 @@ int main()
 	clock_t start, finish;
 	start = clock();
 
-	for (int i = 0; i < 1000; i++) {
 	creat_key("parameter.ecs", "publickey.ecs", "privatekey.ecs");
+	/*for (int i = 0; i < 1000; i++) {
+		creat_key("parameter.ecs", "publickey.ecs", "privatekey.ecs");
 	sign("pulsecret.txt", "privatekey.ecs");
 	verify("pulsecret.txt", "publickey.ecs");
-
-	}
+	}*/
 
 
 	printf("Test of this algorithm finished\n");
